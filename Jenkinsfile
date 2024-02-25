@@ -17,7 +17,9 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                error 'This is failed'
+                sh 'ls -ltr'
+                sh 'pwd'
+               // error 'This is failed'
             }
         }
     }
