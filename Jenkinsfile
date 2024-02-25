@@ -12,7 +12,8 @@ pipeline {
                 sh '''
                    ls -ltr
                    pwd
-                   echo 'Hello Script'
+                   //echo "Hello Script"
+                   echo "Hello from GitHub Push webhook event"
                 '''
             }
         }
