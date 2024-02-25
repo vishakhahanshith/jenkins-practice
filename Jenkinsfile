@@ -13,6 +13,7 @@ pipeline {
                    ls -ltr
                    pwd
                    echo 'Hello Script'
+                '''
             }
         }
         stage('Test') {
